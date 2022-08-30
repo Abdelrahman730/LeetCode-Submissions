@@ -40,9 +40,7 @@ public:
             else
                 break;
         }
-        
-        sort(arr.begin() , arr.end());
-            
+         
         return arr;
     }
 };
