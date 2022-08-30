@@ -28,7 +28,7 @@ public:
         for (int i = index - 1 ; i >= 0 ; i--)
         {
             if (nums[i] == target)
-                arr.push_back(i);
+                arr.insert(arr.begin(), 1, i);
             else
                 break;
         }
